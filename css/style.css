@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	border:0;	
+}
+
+body{
+	font-size:18px;	
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+#container{
+	width:26em;
+	border:black solid .5em;
+	margin:0 auto;	
+	border-radius:10px;
+}
+
+#manaCost {
+	width:95%;
+	margin:0 auto;
+	border:black solid 1px;
+	border-radius:8px;
+	padding:.2em;
+	padding-bottom:0;
+	min-height:2.2em;	
+	margin-top:1em;
+}
+
+#manaCost > img{
+	width:7.5%;	
+	float:right;
+	clear:left;
+}
+
+#picture{
+	width:95%;
+	border:black solid 1px;
+	border-radius:2px;	
+	height:16em;
+	margin:0 auto;
+}
+
+#picture > img{
+	width:100%;	
+}
+
+#type{
+	border:black 1px solid;
+	border-radius:8px;
+	margin:0 auto;
+	padding:.3em;	
+	width:96%;
+}
+
+#type > img{
+	float:right;
+	width:7%;	
+	position:Relative;
+	bottom:.2em;
+}
+
+#abilities{
+	margin:0 auto;
+	width:93%;
+	border:solid 1px black;
+	padding:.3em;	
+	height:11em;
+	margin-bottom:1.8em;
+}
+
+p{
+	line-height:1.8em;	
+}
+
+#stats{
+	width:15%;
+	float:right;
+	border:solid black 2px;
+	padding:.1em;
+	border-radius:12px;
+	text-align:center;
+	margin-right:.4em;
+	position:relative;
+	bottom:2.5em;
+	z-index:+1;
+	background:white;
+}
+
+#abilities > p + p + p{
+	margin-top:1.6em;	
+}
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+	body{
+		font-size:11.5px;	
+	}
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+	body{
+		font-size:33px;
+	}
+} 
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+	body{
+		font-size:30px;	
+	}
+}
+
